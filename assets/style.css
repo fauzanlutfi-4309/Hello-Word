@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: #5eb8fe;
+    z-index: 1;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.header-section {
+    background-image: url('image/background.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+}
+
+.header-section h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.header-section p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.top-destinations img, .explore-indonesia img {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.video-container {
+    position: relative;
+    display: inline-block;
+}
+
+.video-container img {
+    border-radius: 10px;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
+.card {
+    height: 100%;
+}
+.why-choose-us .card {
+    margin-bottom: 20px;
+    border: none;
+}
+
+.why-choose-us .card-body {
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.traveler-experience .card {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.traveler-experience .card-body {
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.faq .accordion .card-header {
+    background: #f8f9fa;
+    border: none;
+}
+
+.faq .accordion .btn-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-us {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.subscribe {
+    background: #f8f9fa;
+    padding: 40px 0;
+}
+
+.footer {
+    background: #343a40;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer img {
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    margin: 20px 0;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact {
+    margin-top: 20px;
+}
+
+.footer-contact p {
+    margin: 10px 0;
+}
+
+.footer-contact img {
+    margin-left: 10px;
+}
