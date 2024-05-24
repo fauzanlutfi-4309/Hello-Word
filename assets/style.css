@@ -48,18 +48,33 @@ body {
 
 .g1 { width: 100%;height: 100%;}
 .g2 { width: 100%;height: 90%;}
-.g3 { width: 100%;height: 93%;}
+.g3 { width: 100%;height: 75%;}
 .g4 { width: 100%; height: 94%;}
 .g5 {width: 100%; height: 98%;}
 .g6 {width: 100%; height: 111%;}
 
+.video-tour{
+    margin-top: 100px;
+    background-image: url('image/bg-vedeo.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.video-tour h3{
+    padding-top: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
 .video-container {
     position: relative;
     display: inline-block;
+    padding-bottom: 70px;
 }
 
 .video-container img {
     border-radius: 10px;
+    width: 890;
 }
 
 .play-button {
@@ -68,12 +83,41 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3em;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 44, 241, 0.5);
     border: none;
     border-radius: 50%;
     color: white;
     cursor: pointer;
 }
+.explore-indonesia {
+    margin-top: 100px;
+}
+.explore-indonesia h3 {
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+
+
+
+.why-choose-us {
+    margin-top: 100px;
+    background-image: url('image/bg-wcu.png');
+    background-size: cover;
+    background-position: center;
+}
+.why-choose-us h3{
+    margin-top: 40px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+.why-choose-us h6{
+    font-weight: bold;
+}
+.why-choose-us .card-wcu {
+    padding-bottom: 60px;
+}
+
 .card {
     height: 100%;
 }
@@ -87,14 +131,55 @@ body {
     border-radius: 10px;
 }
 
+
+
+
+
+
+
+
+
+
 .traveler-experience .card {
     border: none;
     margin-bottom: 20px;
 }
 
 .traveler-experience .card-body {
-    background: #f8f9fa;
+    background: #e5ecfd;
     border-radius: 10px;
+}
+
+.traveler-experience h3 {
+    margin-top: 60px;
+    margin-top: 60px;
+    font-weight: bold;
+}
+.traveler-experience h7 {
+    font-weight: bold;
+    color: #4737ff;
+}
+
+
+
+
+
+.faq{
+    padding-top: 100px;
+    margin-top: 100px;
+    background-image: url('image/bg-faq.png');
+    background-size: cover;
+    background-position: center;
+}
+.faq h3{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.faq .p1{
+    margin-left: 10px;
+}
+.faq h6{
+    font-weight: bold;
 }
 
 .faq .accordion .card-header {
@@ -113,11 +198,45 @@ body {
     padding: 20px;
     margin-top: 20px;
 }
+.faq .question{
+    padding-bottom: 100px;
+}
+
+.foto-faq {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+
 
 .subscribe {
     background: #f8f9fa;
     padding: 40px 0;
 }
+.bg-subs{
+    background-image: url('image/bg-subs.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.subscribe form{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.subscribe h4{
+    font-weight: bold;
+    padding: 10px;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
 
 .footer {
     background: #343a40;
