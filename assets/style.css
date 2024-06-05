@@ -2,26 +2,11 @@
 body {
     font-family: Arial, sans-serif;
 }
-.container {
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-.footer .container {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
 
 /*Navbar ------------------------------------------------------------*/
 
 .navbar {
-    right: 0;
-    left: 0;
     background-color: #5eb8fe;
-}
-
-.navbar-brand img {
-    max-height: 50px;
 }
 
 /*Header ------------------------------------------------------------*/
