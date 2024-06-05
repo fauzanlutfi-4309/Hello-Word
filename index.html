@@ -8,7 +8,8 @@
     <link href="assets/style.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <a class="navbar-brand" href="#">
             <img src="assets/image/logo.png" alt="HappyTravel Logo" height="40">
         </a>
@@ -30,38 +31,43 @@
                     <a class="nav-link" href="#">How to Book</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-primary" href="#" role="button">Log In</a>
+                    <a class="btn btn-outline-light mr-2 mb-2" href="#" role="button">Log In</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-primary ml-2" href="#" role="button">Register</a>
+                    <a class="btn btn-primary" href="#" role="button">Register</a>
                 </li>
             </ul>
         </div>
     </nav>
 
+    <!--Header-->
     <header class="header-section">
-        <div class="container text-center">
+        <div class="container">
             <h1>Explore Indonesia's Wonders<br>Your Gateway to Adventure</h1>
-            <p>Embark on a journey through the enchanting landscapes and vibrant cultures of Indonesia. Start your exploration today and unlock the treasures of Indonesia with our immersive travel experiences.</p>
-            <form class="form-inline justify-content-center">
-                <div class="form-group mb-2">
-                    <label for="fromCity" class="sr-only">From</label>
-                    <input type="text" class="form-control" id="fromCity" placeholder="Select a city">
+            <p>Embark on a journey through the enchanting landscapes and vibrant <br> cultures of Indonesia. Start your exploration today and unlock the <br> treasures of Indonesia with our immersive travel experiences.</p>
+            <div class="col-cta">
+                <div class="row text-left m-2">
+                    <div class="col-md-3 mt-2 mb-3">
+                        <h6>From</h6>
+                        <input type="text" class="form-control" id="fromCity" placeholder="Select a city">
+                    </div>
+                    <div class="col-md-3 mt-2 mb-3">
+                        <h6>To</h6>
+                        <input type="text" class="form-control" id="toCity" placeholder="Select a city">
+                    </div>
+                    <div class="col-md-2 mt-2 mb-3">
+                        <h6>Check In</h6>
+                        <input type="date" class="form-control" id="checkIn" placeholder="Choose a date">
+                    </div>
+                    <div class="col-md-2 mt-2 mb-3">
+                        <h6>Check Out</h6>
+                        <input type="date" class="form-control" id="checkOut" placeholder="Choose a date">
+                    </div>
+                    <div class="col-md-2 mt-4 mb-3">
+                        <button type="submit" class="btn btn-primary mb-2">Check Availability</button>
+                    </div>
                 </div>
-                <div class="form-group mx-sm-3 mb-2">
-                    <label for="toCity" class="sr-only">Where do you want to go?</label>
-                    <input type="text" class="form-control" id="toCity" placeholder="Select a city">
-                </div>
-                <div class="form-group mb-2">
-                    <label for="checkIn" class="sr-only">Check In</label>
-                    <input type="date" class="form-control" id="checkIn" placeholder="Choose a date">
-                </div>
-                <div class="form-group mx-sm-3 mb-2">
-                    <label for="checkOut" class="sr-only">Check Out</label>
-                    <input type="date" class="form-control" id="checkOut" placeholder="Choose a date">
-                </div>
-                <button type="submit" class="btn btn-primary mb-2">Check Availability</button>
-            </form>
+            </div>
         </div>
     </header>
 
@@ -122,6 +128,7 @@
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
+                                <img src="assets/image/wcu-ic1.png" class="img-fluid rounded-circle mb-3" alt="">
                                 <h6 class="card-title">Many Destinations</h6>
                                 <p class="card-text">There are many choices of destinations that you can find according to your needs and desires</p>
                             </div>
@@ -130,6 +137,7 @@
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
+                                <img src="assets/image/wcu-ic2.png" class="img-fluid rounded-circle mb-3" alt="">
                                 <h6 class="card-title">Personalized Itineraries</h6>
                                 <p class="card-text">We understand that every traveler is unique, which is why we tailor our itineraries to suit your preferences, interests, and budget</p>
                             </div>
@@ -138,6 +146,7 @@
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body">
+                                <img src="assets/image/wcu-ic3.png" class="img-fluid rounded-circle mb-3" alt="">
                                 <h6 class="card-title">Sustainable Travel Practices</h6>
                                 <p class="card-text">We are committed to preserving Indonesia's natural beauty and cultural heritage for future generations</p>
                             </div>
@@ -148,7 +157,6 @@
     </section>
 
     <!--Traveler Experience-->
-
     <section class="traveler-experience">
         <div class="container">
             <h3>Traveler's Experience</h3>
@@ -321,8 +329,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
+                    <br>
                     <img src="/assets/image/logo-white.png" alt="HappyTravel Logo" height="40">
-                    <p>© COPYRIGHT 2024</p>
+                    <p>© Copyright 2024</p>
                 </div>
                 <div class="col-md-2 footer-links text-left">
                     <a href="#">Products</a><br>
@@ -353,7 +362,7 @@
                                 <a href="#"><img src="/assets/image/ic-tw.png" alt="Twitter" height="20"></a>
                                 <a href="#"><img src="/assets/image/ic-yt.png" alt="Instagram" height="20"></a>
                             </div>
-                            </p>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -365,4 +374,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
